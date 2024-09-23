@@ -12,6 +12,12 @@
 .form-control{
     width: 30rem !important;
     border-radius: 40px 0 0 40px !important;
+    box-shadow: inset 0 1px 2px  !important;
+
+}
+.nav-pill .active{
+    background-color: #DDD !important;
+    border-radius: 10px;
 
 }
 .ic li a i{
@@ -22,7 +28,9 @@
 
 }
 .badge{
-    background: silver;
+    background-color: #DDD !important;
+    border-radius: 40px;
+    
 }
 .badge:hover{
     background: rgb(120, 117, 117);
@@ -35,9 +43,46 @@
     color: black !important;
    
  }
+ .les{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .tou li a{
+    font-size: 12px;
+    color: black ;
+ }
+ .tou{
+    display: block !important;
+    background-color: #DDD !important;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+ }
 @media ( max-width:760px) {
     .SN{
         margin-top: -0.5rem !important;
         font-size: 10px;
      }
+     .navbar-collapse{
+        display: none;
+     }
+     .les{
+        display: flex;
+        gap: 2 !important;
+     }
+     .tou li a{
+       font-size: 4px;
+     }
+     .tou{
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
+
+        /* height: 12px; */
+     }
+     .form-control{
+        width: 1rem !important;
+        border-radius: 40px 0 0 40px !important;
+    
+    }
+    .form-control:hover{
+        width: 6rem !important;
+    }
 }
