@@ -57,6 +57,17 @@
     background-color: #DDD !important;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
  }
+ .sp{
+    padding-left: 15rem;
+    padding-top: 8rem;
+    color: aliceblue;
+ }
+ .spp{
+    padding-left: 14rem;
+    padding-top: 8rem;
+    color: aliceblue;
+ }
+
 @media ( max-width:760px) {
     .SN{
         margin-top: -0.5rem !important;
@@ -85,4 +96,19 @@
     .form-control:hover{
         width: 6rem !important;
     }
+
+    .sp{
+        padding-left: 25rem;
+        padding-top: 13rem;
+        color: aliceblue;
+     }
+
+    .spp{
+        padding-left: 23rem;
+        padding-top: 13rem;
+        color: aliceblue;
+     }
+     .navba-toggle-ico{
+        display: none;
+     }
 }
