@@ -68,6 +68,19 @@
     color: aliceblue;
  }
 
+ @media (max-width: 375px) {
+   .sp {
+       padding-left: 18rem;
+       padding-top: 9rem;
+       color: aliceblue;
+   }
+   .spp {
+      padding-left: 17rem;
+      padding-top: 10rem;
+      color: aliceblue;
+
+  }
+}
 @media ( max-width:760px) {
     .SN{
         margin-top: -0.5rem !important;
@@ -81,12 +94,10 @@
         gap: 2 !important;
      }
      .tou li a{
-       font-size: 4px;
+       font-size: 2px;
      }
      .tou{
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
-
-        /* height: 12px; */
+        /* padding: 0.5rem 0.5rem 0.5rem 0.5rem ; */
      }
      .form-control{
         width: 1rem !important;
@@ -98,14 +109,14 @@
     }
 
     .sp{
-        padding-left: 25rem;
-        padding-top: 13rem;
+      padding-left: 18rem;
+      padding-top: 9rem;
         color: aliceblue;
      }
 
     .spp{
-        padding-left: 23rem;
-        padding-top: 13rem;
+      padding-left: 16rem;
+      padding-top: 9rem;
         color: aliceblue;
      }
      .navba-toggle-ico{
